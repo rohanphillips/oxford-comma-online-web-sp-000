@@ -6,7 +6,7 @@ def oxford_comma(array)
     willreturn = ""
     array.each_with_index do |n, index|
       willreturn = willreturn + n
-      if index < array.size
+      if index < array.size - 1
          willreturn = willreturn + ", "
       else
           willreturn = willreturn + " and " + n
