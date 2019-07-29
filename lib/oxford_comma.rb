@@ -5,12 +5,10 @@ def oxford_comma(array)
   elsif array.size == 3
     willreturn = ""
     array.each_with_index do |n, index|
-      willreturn = willreturn + n
-      if index < array.size - 1
-         willreturn = willreturn + ", "
+      if index < array.size
+         willreturn = willreturn + n + ", "
       else
-          willreturn = willreturn + " and " + n
-          break
+          willreturn = " and " + willreturn 
       end
     end
   end
