@@ -14,8 +14,6 @@ puts array
         willreturn << (n)
       end
     end
-  #else
-
   end
   return willreturn
 end
