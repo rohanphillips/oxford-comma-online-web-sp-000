@@ -10,6 +10,7 @@ def oxford_comma(array)
          willreturn = willreturn + ", "
       else
           willreturn = willreturn + " and " + n
+          break
       end
     end
   end
