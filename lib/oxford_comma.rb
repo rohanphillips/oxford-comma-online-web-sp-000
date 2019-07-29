@@ -15,7 +15,7 @@ puts array
       end
     end
   #else
-    
+
   end
   return willreturn
 end
