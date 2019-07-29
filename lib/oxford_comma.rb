@@ -9,9 +9,9 @@ def oxford_comma(array)
       puts n
       puts array.size
        willreturn = willreturn + n
-      if index + 1  < array.size - 1
+      if index + 1  < array.size
          willreturn = willreturn + ", "
-      elsif index + 1  < array.size
+      else
           willreturn = willreturn + " and "
       end
     end
