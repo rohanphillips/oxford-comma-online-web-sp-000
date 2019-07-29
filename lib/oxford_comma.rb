@@ -13,7 +13,7 @@ def oxford_comma(array)
         willreturn << (n)
         willreturn << (", ")
       else
-        willreturn << " and "
+        willreturn << "and "
         willreturn << (n)
       end
     end
