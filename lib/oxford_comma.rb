@@ -3,7 +3,7 @@ puts array
   willreturn = array.join
   if array.size == 2
     willreturn = array.join(" and ")
-  elsif array.size == 3
+  elsif array.size >= 3
     willreturn = ""
     array.each_with_index do |n, index|
       if index  < array.size - 1
@@ -14,8 +14,8 @@ puts array
         willreturn << (n)
       end
     end
-  else
-
+  #else
+    
   end
   return willreturn
 end
