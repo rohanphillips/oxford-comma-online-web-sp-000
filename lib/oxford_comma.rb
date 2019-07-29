@@ -11,8 +11,6 @@ def oxford_comma(array)
        willreturn = willreturn + n
       if index  < array.size - 1
          willreturn << ", "
-      else
-          willreturn = " and " + willreturn
       end
     end
   end
