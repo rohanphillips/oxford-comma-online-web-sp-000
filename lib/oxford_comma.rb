@@ -9,7 +9,7 @@ def oxford_comma(array)
       puts n
       puts array.size
 
-      if index  < array.size - 2
+      if index  < array.size - 1
         willreturn << n
          willreturn << ", "
       #else
