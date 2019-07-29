@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  willreturn array.join
+  willreturn = array.join
   if array.size == 2
     willreturn = array.join(" and ")
   elsif array.size == 3
